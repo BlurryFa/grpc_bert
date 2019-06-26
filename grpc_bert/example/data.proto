@@ -1,0 +1,14 @@
+syntax = "proto3";
+package example;
+service Strings2Vector {
+    rpc StringEncoder (Strings) returns (EncodedVector) {}
+}
+
+message Strings{
+    string content = 1;
+	int32 len = 2;
+}
+
+message EncodedVector{
+	repeated float vector = 1;
+}

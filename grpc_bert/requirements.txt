@@ -1,0 +1,5 @@
+python>=3.5
+tensorflow>=1.10
+grpcio-tools>=1.21.1
+grpcio>=1.21.1
+protobuf>=3.8.0
